@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "player_lib"
+  s.name         = "Ios_Player_Lib"
   s.version      = "0.0.1"
   s.summary      = "lib"
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/stonemountain/PLAYER_LIB.git"
+  s.homepage     = "https://github.com/stonemountain/Ios_Player_Lib.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/stonemountain/PLAYER_LIB.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
