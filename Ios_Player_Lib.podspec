@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint player_lib.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Ios_Player_Lib.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "Ios_Player_Lib"
   s.version      = "1.0.0"
-  s.summary      = "lib"
+  s.summary      = "ios player lib for smvp client."
 
   s.description  = <<-DESC
-                   A longer description of player_lib in Markdown format.
+                   A longer description of Ios_Player_Lib in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/stonemountain/Ios_Player_Lib.git"
+  s.homepage     = "https://github.com/stonemountain/Ios_Player_Lib"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "yfei" => "yangf@smvp.cn" }
-  # Or just: s.author    = "yfei"
-  # s.authors            = { "yfei" => "yangf@smvp.cn" }
-  # s.social_media_url   = "http://twitter.com/yfei"
+  s.author             = { "yangf" => "yangf@smvp.cn" }
+  # Or just: s.author    = "stonemountain"
+  # s.authors            = { "stonemountain" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/stonemountain"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "libSmvpClient.a"
-  #s.exclude_files = "Classes/Exclude"
+  s.source_files = 'SmvpClient/*.h'
+  s.vendored_libraries = '*.a'
 
   # s.public_header_files = "Classes/**/*.h"
 
