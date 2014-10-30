@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.authors             = { "stonemountain" => "julien@smvp.cn" }
+  s.author             = { "stonemountain" => "julien@smvp.cn" }
   # Or just: s.author    = "stonemountain"
   # s.authors            = { "stonemountain" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/stonemountain"
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
   # s.source_files = "SmvpClient/*.h"
   s.public_header_files = "SmvpClient/*.h"
-  s.vendored_libraries = "libSmvpClient.a"
+  s.vendored_libraries = "SmvpClient/libSmvpClient.a"
 
 
 
