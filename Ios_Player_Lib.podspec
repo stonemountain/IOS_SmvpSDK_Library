@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-  # s.source_files = 'SmvpClient/*.h'
-  s.vendored_libraries = "SmvpClient/*.a"
-
+  # s.source_files = "SmvpClient/*.h"
   s.public_header_files = "SmvpClient/*.h"
+  s.vendored_libraries = "libSmvpClient.a"
+
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
