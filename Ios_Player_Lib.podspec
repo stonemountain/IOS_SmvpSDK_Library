@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = "ios player lib for stonemountain client."
 
   s.description  = <<-DESC
-                   A longer description of Ios_Player_Lib in Markdown format.
+                   Ios player lib for stonemountain client.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
