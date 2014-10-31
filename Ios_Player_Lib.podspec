@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Ios_Player_Lib"
-  s.version      = "1.0.8"
+  s.version      = "0.0.0"
   s.summary      = "ios player lib for stonemountain client."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "1.0.8" }
+  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "0.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  s.requires_arc = false
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/SmvpClient" }
   # s.dependency "JSONKit", "~> 1.4"
