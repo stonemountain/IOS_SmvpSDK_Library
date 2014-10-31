@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Ios_Player_Lib"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "ios player lib for stonemountain client."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "1.0.6" }
+  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "1.0.7" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "SmvpClient"
   #s.source_files = "SmvpClient/*.h"
-  s.public_header_files = "Ios_Player_Lib/**/*.h"
+  s.public_header_files = "Headers/Public/*.h"
   s.vendored_libraries = "libSmvpClient.a"
 
 
