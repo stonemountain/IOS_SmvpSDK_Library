@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "Ios_Player_Lib"
-  s.version      = “1.1.”0
+  s.version      = “1.1.0”
   s.summary      = "ios player lib for stonemountain client."
 
   s.description  = <<-DESC
