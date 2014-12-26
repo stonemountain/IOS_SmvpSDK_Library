@@ -14,7 +14,7 @@
 @interface SmvpHttpConnection : NSObject<NSURLConnectionDataDelegate>
 
 @property(nonatomic, strong) NSURLRequest *request;
-@property(nonatomic, weak) id<SmvpHttpConnectionDelegate> httpDelegate;
+@property(nonatomic, strong) id<SmvpHttpConnectionDelegate> httpDelegate;
 
 - (instancetype)initWithRequest:(NSURLRequest *)request;
 - (void)start;
