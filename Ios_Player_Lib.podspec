@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "Ios_Player_Lib"
-  s.version      = "1.1.3"
+  s.version      = "1.1.6"
   s.summary      = "ios player lib for stonemountain client."
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "1.1.3" }
+  s.source       = { :git => "https://github.com/stonemountain/Ios_Player_Lib.git", :tag => "1.1.6" }
   
   s.source_files = 'SmvpClient/*.{h,m}'
   s.public_header_files = "SmvpClient/*.h"
