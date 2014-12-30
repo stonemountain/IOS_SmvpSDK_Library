@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "M3u8SegmentList.h"
 #import "SegmentDownloader.h"
 @class SmvpRendition;
 @class SmvpAPIClient;
+@class M3u8SegmentList;
+@class SegmentDownloader;
 
 @protocol VideoDownloadDelegate;
 @interface VideoDownloader : NSObject<SegmentDownloadDelegate>
