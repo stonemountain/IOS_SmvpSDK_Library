@@ -1,2 +1,2 @@
-IOS_LIB
-=======	
+IOS_SmvpSDK_Library
+==================	
