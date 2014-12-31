@@ -16,7 +16,7 @@
 @protocol VideoDownloadDelegate;
 @interface VideoDownloader : NSObject<SegmentDownloadDelegate>
 
-@property(nonatomic,retain)id<VideoDownloadDelegate> delegate;
+@property(nonatomic,strong)id<VideoDownloadDelegate> delegate;
 @property(nonatomic,retain)M3u8SegmentList* segmentList;
 @property(nonatomic,retain)SegmentDownloader* segmentDownloader;
 @property(readwrite,strong)SmvpRendition* smvpRendition;
@@ -36,6 +36,6 @@
 @protocol VideoDownloadDelegate <NSObject>
 @optional
 -(void)videoDownloaderFinished:(VideoDownloader*)request;
--(void)videoDownLoaderProgress:(double)progress;
+-(void)videoDownloaderProgress:(double)progress;
 -(void)videoDownloaderFailed:(VideoDownloader*)request;
 @end
