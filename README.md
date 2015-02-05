@@ -16,7 +16,7 @@ video player:
 ============================
 video manager:
 
-	video update;
+	video upload;
 
 	video downloader manager(local cache);	
 		
