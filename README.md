@@ -31,4 +31,5 @@ video manager:
 	video upload;
 
 	video downloader manager(local cache);	
-		
+============================
+[Example](https://github.com/stonemountain/IOS_Example)		
