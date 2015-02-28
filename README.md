@@ -14,7 +14,7 @@ video player:
 
 	simple video play function;
 
-	play video width playerId from console: configurations(autoplay,loop);
+	play video width playerId from console: configurations(autoplay,loop,muted);
 
 	post notification for play status;
 
@@ -25,6 +25,8 @@ video player:
 	play;
 
 	seek;
+
+	volume control;
 ============================
 video manager:
 
